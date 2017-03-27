@@ -14,6 +14,7 @@ lazy val root = (project in file(".")).
     ),
     libraryDependencies ++= Seq(
       "org.apache.spark" %% "spark-core" % "2.1.0",
+      "ai.h2o" %% "sparkling-water-core" % "2.1.2",
       "org.scalatest" %% "scalatest" % "3.0.1" % Test
     )
   )
